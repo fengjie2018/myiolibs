@@ -141,7 +141,6 @@ public final class Stdout {
 
 	/**
 	 * 打印一个Object并刷新
-	 * 
 	 * @param x
 	 */
 	public static void print(Object x) {
@@ -151,7 +150,6 @@ public final class Stdout {
 
 	/**
 	 * 打印一个boolean并刷新
-	 * 
 	 * @param x
 	 */
 	public static void print(boolean x) {
@@ -161,7 +159,6 @@ public final class Stdout {
 
 	/**
 	 * 打印一个char并刷新
-	 * 
 	 * @param x
 	 */
 	public static void print(char x) {
@@ -171,7 +168,6 @@ public final class Stdout {
 
 	/**
 	 * 打印一个double并刷新
-	 * 
 	 * @param x
 	 */
 	public static void print(double x) {
@@ -181,7 +177,6 @@ public final class Stdout {
 
 	/**
 	 * 打印一个float并刷新
-	 * 
 	 * @param x
 	 */
 	public static void print(float x) {
@@ -191,7 +186,6 @@ public final class Stdout {
 
 	/**
 	 * 打印一个int并刷新
-	 * 
 	 * @param x
 	 */
 	public static void print(int x) {
@@ -201,7 +195,6 @@ public final class Stdout {
 
 	/**
 	 * 打印一个long并刷新
-	 * 
 	 * @param x
 	 */
 	public static void print(long x) {
@@ -254,7 +247,7 @@ public final class Stdout {
 	}
 
 	/**
-	 * 对一些方法进行单元测试
+	 * 对一些方法进行测试
 	 *
 	 * @param args 命令行参数
 	 */
