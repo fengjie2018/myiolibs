@@ -1,4 +1,4 @@
-package fengjie.Stdout;
+package fengjie.stdout;
 
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
@@ -8,9 +8,8 @@ import java.util.Locale;
 /**
  * 这个类提供打印数字和字符串到标准输出的方法。 编码：UTF-8 语系：zh-CN
  * 在学习《算法》第四版时，我决定仿照书中的代码编写自己的标准输出库，一则练手，二则自用。
- *
  * @author fengjie2018@qq.com
- * @version 1.0
+ * @version 1.0 2018年2月15日
  * @since JDK1.8
  */
 public final class Stdout {
@@ -34,8 +33,7 @@ public final class Stdout {
 	}
 
 	// 禁止创建实例
-	private Stdout() {
-	}
+	private Stdout() {}
 
 	/**
 	 * 关闭输入
@@ -53,8 +51,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个Object并换行
-	 *
-	 * @param x
+	 * @param x Object
 	 */
 	public static void println(Object x) {
 		out.println(x);
@@ -62,8 +59,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个boolean并换行
-	 *
-	 * @param x
+	 * @param x boolean
 	 */
 	public static void println(boolean x) {
 		out.println(x);
@@ -71,8 +67,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个char并换行
-	 *
-	 * @param x
+	 * @param x char
 	 */
 	public static void println(char x) {
 		out.println(x);
@@ -80,8 +75,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个double并换行
-	 *
-	 * @param x
+	 * @param x double
 	 */
 	public static void println(double x) {
 		out.println(x);
@@ -89,8 +83,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个float并换行
-	 *
-	 * @param x
+	 * @param x float
 	 */
 	public static void println(float x) {
 		out.println(x);
@@ -98,8 +91,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个int并换行
-	 *
-	 * @param x
+	 * @param x int
 	 */
 	public static void println(int x) {
 		out.println(x);
@@ -107,8 +99,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个long并换行
-	 *
-	 * @param x 
+	 * @param x long
 	 */
 	public static void println(long x) {
 		out.println(x);
@@ -116,8 +107,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个short并换行
-	 *
-	 * @param x
+	 * @param x short
 	 */
 	public static void println(short x) {
 		out.println(x);
@@ -125,8 +115,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个byte并换行
-	 *
-	 * @param x
+	 * @param x byte
 	 */
 	public static void println(byte x) {
 		out.println(x);
@@ -141,7 +130,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个Object并刷新
-	 * @param x
+	 * @param x Object
 	 */
 	public static void print(Object x) {
 		out.print(x);
@@ -150,7 +139,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个boolean并刷新
-	 * @param x
+	 * @param x boolean
 	 */
 	public static void print(boolean x) {
 		out.print(x);
@@ -159,7 +148,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个char并刷新
-	 * @param x
+	 * @param x char
 	 */
 	public static void print(char x) {
 		out.print(x);
@@ -168,7 +157,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个double并刷新
-	 * @param x
+	 * @param x double
 	 */
 	public static void print(double x) {
 		out.print(x);
@@ -177,7 +166,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个float并刷新
-	 * @param x
+	 * @param x float
 	 */
 	public static void print(float x) {
 		out.print(x);
@@ -186,7 +175,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个int并刷新
-	 * @param x
+	 * @param x int
 	 */
 	public static void print(int x) {
 		out.print(x);
@@ -195,7 +184,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个long并刷新
-	 * @param x
+	 * @param x long
 	 */
 	public static void print(long x) {
 		out.print(x);
@@ -204,7 +193,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个short并刷新
-	 * @param x
+	 * @param x short
 	 */
 	public static void print(short x) {
 		out.print(x);
@@ -213,7 +202,7 @@ public final class Stdout {
 
 	/**
 	 * 打印一个byte并刷新
-	 * @param x
+	 * @param x byte
 	 */
 	public static void print(byte x) {
 		out.print(x);
@@ -222,9 +211,7 @@ public final class Stdout {
 
 	/**
 	 * 用指定的格式字符串和参数打印
-	 *
 	 * @param format 格式字符串
-     *
 	 * @param args 对应格式串的参数
 	 */
 	public static void printf(String format, Object... args) {
@@ -233,12 +220,9 @@ public final class Stdout {
 	}
 
 	/**
-	 * 用指定的格式字符串和参数打印
-	 * 
+	 * 用指定的格式字符串和语系和参数打印
 	 * @param locale 语系
-	 *
 	 * @param format 格式字符串
-     *
 	 * @param args 对应格式串的参数
 	 */
 	public static void printf(Locale locale, String format, Object... args) {
@@ -248,7 +232,6 @@ public final class Stdout {
 
 	/**
 	 * 对一些方法进行测试
-	 *
 	 * @param args 命令行参数
 	 */
 	public static void main(String[] args) {
@@ -258,6 +241,5 @@ public final class Stdout {
 		Stdout.println(17);
 		Stdout.println(true);
 		Stdout.printf("%.6f\n", 1.0 / 3.0);
-	}
-
+	｝
 }
