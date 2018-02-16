@@ -216,7 +216,6 @@ public final class Stdout {
 	 */
 	public static void printf(String format, Object... args) {
 		out.printf(LOCALE, format, args);
-		out.flush();
 	}
 
 	/**
@@ -227,7 +226,6 @@ public final class Stdout {
 	 */
 	public static void printf(Locale locale, String format, Object... args) {
 		out.printf(locale, format, args);
-		out.flush();
 	}
 
 	/**
