@@ -53,7 +53,7 @@ public final class Stdin {
     private Stdin() {}
 
    /**
-     * 如果标准输入为空就返回true，注意空白符为空
+     * 如果标准输入为空就返回true，空白符视为空
      * @return boolean
      */
     public static boolean isEmpty() {

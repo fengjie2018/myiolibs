@@ -240,6 +240,6 @@ public final class Stdout {
 		Stdout.println("你好啊，我的朋友!");
 		Stdout.println(17);
 		Stdout.println(true);
-		Stdout.printf("%.6f\n", 1.0 / 3.0);
+		Stdout.printf("%.2f\n", 1.0 / 3.0);
 	}
 }
