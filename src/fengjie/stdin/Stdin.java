@@ -53,7 +53,7 @@ public final class Stdin {
     private Stdin() {}
 
    /**
-     * 如果标准输入为空就返回true，注意空白符不为空
+     * 如果标准输入为空就返回true，注意空白符为空
      * @return boolean
      */
     public static boolean isEmpty() {
@@ -123,7 +123,6 @@ public final class Stdin {
 
    /**
      * 读取下一个标记，并解释为String
-     *
      * @return String
      * @throws NoSuchElementException 如果标准输入为空，则抛出此异常
      */
