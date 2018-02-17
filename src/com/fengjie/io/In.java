@@ -1,4 +1,4 @@
-package fengjie.in;
+package com.fengjie.io;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -15,7 +15,7 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import fengjie.stdout.Stdout;
+import com.fengjie.stdio.Stdout;
 
 /**
  *  这个类提供了从标准输入，文件，网页和套接字读取数字，字符串的方法
@@ -107,7 +107,7 @@ public final class In {
 
    /**
      * 从一个字符串初始化输入流
-     * @param  String
+     * @param name String
      * @throws IllegalArgumentException 如果无法打开或为null则抛出异常
      */
     public In(String name) {

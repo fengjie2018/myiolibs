@@ -1,5 +1,5 @@
 //把数据写入标准输出，文件或套接字
-package fengjie.out;
+package com.fengjie.io;
 
 
 import java.io.FileOutputStream;
@@ -32,7 +32,7 @@ public class Out {
 
     /**
      * 初始化输出流
-     * @param OutputStream
+     * @param os OutputStream
      */
     public Out(OutputStream os) {
         try {

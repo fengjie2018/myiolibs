@@ -1,4 +1,4 @@
-package fengjie.stdin;
+package com.fengjie.stdio;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -6,7 +6,6 @@ import java.util.Locale;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 import java.util.regex.Pattern;
-import fengjie.stdout.*;
 
 /**
  *  这个类提供了从标准输入流读取字符串和数字的方法

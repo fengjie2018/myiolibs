@@ -1,4 +1,4 @@
-package fengjie.stdout;
+package com.fengjie.stdio;
 
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
